@@ -1,5 +1,6 @@
 <style type="">
 .img{
+  
 	border: 1px solid #999;
 	width:100%;
 	height:100px;

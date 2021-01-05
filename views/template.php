@@ -17,6 +17,8 @@
 	<script src="views/fontawesome/js/all.min.js"></script>
 
 	<script type="text/javascript" src="views/waypoints/lib/noframework.waypoints.min.js"></script>
+	<script src="views/js/animatescroll.js"></script>
+	<script src="views/js/jquery.scrollUp.js"></script>
 
 </head>
 	<body>
@@ -34,4 +36,6 @@
 	<script src="views/bootstrap/js/bootstrap.min.js"></script>
 	<script src="views/bootstrap/js/script.js"></script>
 	<script src="views/js/articulos.js"></script>
+	<script src="views/js/script.js"></script>
+	<script src="views/js/mensajes.js"></script>
 </html>

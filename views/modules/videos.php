@@ -47,22 +47,27 @@
 		</div>
 	<div class="col-lg-6">
 		<div class="row">
-			<div class="col-lg-12 col-md-3 col-sm-6 col-xs-12">
-				<video controls>
-				    <source src="views/videos/005 Variables PHP.mp4" type="video/mp4">
-				</video>
-			</div>
-			<div class="col-lg-6 col-md-3 col-sm-6 col-xs-12">
-				<video controls>
-				    <source src="views/videos/005 Variables PHP.mp4" type="video/mp4">
-				</video>
-			</div>
-			<div class="col-lg-6 col-md-3 col-sm-6 col-xs-12">
-				<video controls>
-				    <source src="views/videos/005 Variables PHP.mp4" type="video/mp4">
-				</video>
-			</div>
-
+			<?php 
+				$mostrarVideos = new videosController();
+      			$mostrarVideos->selectVideosController();
+			 ?>
+			<!--
+				<div class="col-lg-12 col-md-3 col-sm-6 col-xs-12">
+					<video controls>
+					    <source src="views/videos/005 Variables PHP.mp4" type="video/mp4">
+					</video>
+				</div>
+				<div class="col-lg-6 col-md-3 col-sm-6 col-xs-12">
+					<video controls>
+					    <source src="views/videos/005 Variables PHP.mp4" type="video/mp4">
+					</video>
+				</div>
+				<div class="col-lg-6 col-md-3 col-sm-6 col-xs-12">
+					<video controls>
+					    <source src="views/videos/005 Variables PHP.mp4" type="video/mp4">
+					</video>
+				</div>
+			-->
 		</div>
 		</div>
 	</div>

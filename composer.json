@@ -1,0 +1,12 @@
+{
+    "name": "proyectoweb/contracting",
+    "description": "Pagina web de contracting para gerardo",
+    "authors": [
+        {
+            "name": "panch-55",
+            "email": "letsrock116@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}

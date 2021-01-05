@@ -17,7 +17,6 @@ GALERIA ADMINISTRABLE
 ======================================-->
 	<div id="imgSlide" class="col-lg-12 col-md-10 col-sm-9 col-xs-12">
 	<hr>
-
 		<p><span class="fa fa-arrow-down"></span>  Arrastra aquí tu imagen, tamaño recomendado: 1600px * 600px</p>
 
 		<ul id="lightbox">

@@ -89,7 +89,6 @@ footer #formulario{
     		</li>
 		</ol>
 
-
 	    <input type="text" name="nombre" id="nombre" class="form-control" required placeholder="Nombre" autocomplete="off">
       <p id="errorNombre"></p>
 	    <input type="email" name="email" id="email" class="form-control" required placeholder="Email" autocomplete="off">
