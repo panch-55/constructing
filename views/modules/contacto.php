@@ -37,10 +37,14 @@ footer#contactenos #formulario{
 }
 
 footer #formulario{
-  max-height: 558px;
+  min-height: 400px;
 }
+
 .titContact{
   color: #CD5C5C!important;
+}
+#contactenos{
+  margin-bottom: 100px;
 }
 
 </style>
@@ -90,11 +94,11 @@ footer #formulario{
 		</ol>
 
 	    <input type="text" name="nombre" id="nombre" class="form-control" required placeholder="Nombre" autocomplete="off">
-      <p id="errorNombre"></p>
+      <div id="errorNombre"></div>
 	    <input type="email" name="email" id="email" class="form-control" required placeholder="Email" autocomplete="off">
-      <p id="errorEmail"></p>
+      <div id="errorEmail"></div>
 	    <textarea name="mensaje" id="mensaje" cols="15" rows="10" required placeholder="Contenido del Mensaje" class="form-control"></textarea>
-      <p id="errorMsj"></p>
+      <div id="errorMsj"></div>
       <br>
       <div class="row">
         <div class="col-md-12 col-sm-12">

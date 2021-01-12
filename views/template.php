@@ -31,6 +31,7 @@
 			include("modules/articulos.php");
 			include("modules/videos.php");
 			include("modules/contacto.php");
+			include("modules/footer.php");
 		?>
 	</body>
 	<script src="views/bootstrap/js/bootstrap.min.js"></script>

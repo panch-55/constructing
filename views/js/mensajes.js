@@ -5,9 +5,10 @@ function validarMensaje() {
 	var validar = false;
 	var errorMsj;
 	if (nombre != "") {
-		//var longitud = nombre.length;
-		var expresion = /^[a-zA-Z\s]*$/;
-		if (!expresion.test(nombre)) {
+		//var longitud = nombre.length;+ç
+		var expresionPrueba = /^[a-zA-ZÀ-ÿ\u00f1\u00d1\.\,]+(\s*[a-zA-ZÀ-ÿ\u00f1\u00d1]*)*[a-zA-ZÀ-ÿ\u00f1\u00d1]+$/;
+		var expresion = /^[a-zA-Z0-9\u00f1\u00d1\.\,]*$/;
+		if (!expresionPrueba.test(nombre)) {
 			$("#errorNombre").html('<div class="alert alert-warning">El nombre no permite numeros ni caracteres especiales</div>');
 			validar = false;
 		}else{
@@ -32,7 +33,7 @@ function validarMensaje() {
 		validar = false;
 	}
 	if($("#mensaje").val() != "") {
-		var expresionMsj = /^[a-zA-Z0-9\s]*$/;
+		var expresionMsj = /^[a-zA-Z0-9\s\u00f1\u00d1\.\,]*$/;
 		if (!expresionMsj.test(mensaje)) {
 			$("#errorMsj").html('<br><div class="alert alert-warning">No se permiten caracteres especiales</div>');
 			validar = false;
