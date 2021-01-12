@@ -9,6 +9,7 @@
 	<link rel="stylesheet" href="views/animate/animate.min.css">
 	<link rel="stylesheet" href="views/fontawesome/css/fontawesome.min.css">
 	<link rel="stylesheet" href="views/fancybox-master/dist/jquery.fancybox.min.css" />
+	<link rel="stylesheet" href="views/css/sweetalert.css">
 
 	<script src="views/bootstrap/js/jquery.min-3.5.1.js"></script>
 	<script src="views/bootstrap/js/popper.min-2.5.3.js"></script>
@@ -19,6 +20,7 @@
 	<script type="text/javascript" src="views/waypoints/lib/noframework.waypoints.min.js"></script>
 	<script src="views/js/animatescroll.js"></script>
 	<script src="views/js/jquery.scrollUp.js"></script>
+	<script src="views/js/sweetalert.min.js"></script>
 
 </head>
 	<body>

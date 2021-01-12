@@ -73,7 +73,7 @@ footer #formulario{
 
 	</div>
 
-	<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12" id="formulario" >
+	<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12  pb-3" id="formulario" >
 
 		<ol>
     		<li>
@@ -94,11 +94,11 @@ footer #formulario{
 		</ol>
 
 	    <input type="text" name="nombre" id="nombre" class="form-control" required placeholder="Nombre" autocomplete="off">
-      <div id="errorNombre"></div>
+      <p id="errorNombre"></p>
 	    <input type="email" name="email" id="email" class="form-control" required placeholder="Email" autocomplete="off">
-      <div id="errorEmail"></div>
+      <p id="errorEmail"></p>
 	    <textarea name="mensaje" id="mensaje" cols="15" rows="10" required placeholder="Contenido del Mensaje" class="form-control"></textarea>
-      <div id="errorMsj"></div>
+      <p id="errorMsj"></p>
       <br>
       <div class="row">
         <div class="col-md-12 col-sm-12">

@@ -15,7 +15,7 @@ class mensajesController
 		$nombre = $datos['nombre'];
 		$email = $datos['email'];
 		$mensaje = $datos['mensaje'];
-		if(preg_match('/^[a-zA-Z\s]+$/', $nombre) && preg_match('/^[^0-9][a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*[@][a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*[.][a-zA-Z]{2,4}$/', $email) && preg_match('/^[a-zA-Z0-9\s\.,]+$/', $mensaje)){
+		if(preg_match('/^[a-zA-Z\s]+$/', $nombre) && preg_match('/^[^0-9][a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*[@][a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*[.][a-zA-Z]{2,4}$/', $email) && preg_match('/^[a-zA-Z0-9\s\.,ñÑ]+$/', $mensaje)){
 
 			$correoDestino = "letsrcok116@gmail.com";
 			$asunto = "Nuevo mensje de la pagina";

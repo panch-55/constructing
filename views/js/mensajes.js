@@ -65,7 +65,7 @@ $("#enviar").click(function(){
 			method: "POST",
 			data: data,
 			success: function(respuesta){
-				console.log('respuesta', respuesta);
+				//console.log('respuesta', respuesta);
 				if (respuesta == "ok") {
 					swal({
 			                title: "Ok!",
@@ -74,7 +74,9 @@ $("#enviar").click(function(){
 			                timer: 1400,
 			                buttons: false
 						}).then(function () {
-							window.location = "index.php";
+							$("#nombre").val('');
+							$("#email").val('');
+							$("#mensaje").val('');
 						});
 				} else {
 					swal({
@@ -83,8 +85,6 @@ $("#enviar").click(function(){
 			                icon: "warning",
 			                timer: 1400,
 			                buttons: false
-						}).then(function () {
-							window.location = "index.php";
 						});
 				}
 			}
